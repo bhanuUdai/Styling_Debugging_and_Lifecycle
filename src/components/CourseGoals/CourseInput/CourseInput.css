@@ -22,3 +22,26 @@
   background: #fad0ec;
   border-color: #8b005d;
 }
+
+.form-control.invalid label {
+  color: red;
+}
+
+/* .form-control.invalid label means  'form-control' also has the 'invalid' class, which means they both have to be on the same element, then we could target our label */
+
+.form-control.invalid input{
+  background-color: grey;
+  border-color: #8b005d;
+}
+
+/* .form-control.invalid label means  'form-control' also has the 'invalid' class, which means they both have to be on the same element, then we could target our input */
+
+.button-control.invalid{
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #8b005d;
+  color: white;
+  background:rgb(236, 176, 176);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
